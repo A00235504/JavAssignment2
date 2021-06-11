@@ -196,7 +196,7 @@ public class ArrayTools {
 
         // one by one adding the inputarray values to answer
         for (int i = 0; i < inputArray.length; i++) {
-            resultAnswer = resultAnswer + inputArray[i];
+            resultAnswer = (resultAnswer + inputArray[i]) / inputArray.length;
         }
         return resultAnswer;
     }
